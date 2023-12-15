@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            .custom-line {
+              border: 1px solid #ccc; /* Change color as needed */
+              margin: 20px 0; /* Adjust margin as needed */
+            }
+
+            /* Custom styles for the footer */
+            footer {
+            background-color: #333; /* Set the background color as needed */
+            color: #fff; /* Set the text color as needed */
+            height: 10rem; /* Set the height as needed */
+            }
+
+            footer p {
+            margin: 0; /* Remove default margin for better appearance */
+            }
+          </style>
+    
+    </head>
+    <body>
+        
+        <!--menu-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Saudade.RIP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="death_notices.html">Obituário</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Serviços</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pratical_info.html">Informações Práticas</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In</button>
+                </form>
+            </div>
+          </nav>
+        <!--menu-->
+    
+        <hr class="custom-line">
+     
+        <!-- breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item" aria-current="page">Home</li>
+              <li class="breadcrumb-item active" aria-current="page">Serviços</li>
+            </ol>
+        </nav>
+        <!-- breadcrumb -->
+
+        <hr class="custom-line">
+
+        <!-- search component-->
+
+        <div class="container">
+            <div class="card">
+              <div class="card-body">
+                <!-- Your card content goes here -->
+                <h5 class="card-title">Pesquisar Serviços</h5>
+                <p class="card-text">
+                    <div class="container mt-4">
+                        <form>
+                          
+                          <div class="row">
+                            <div class="col-md-2">
+                              <div class="form-group">
+                                <select class="form-control" id="stateSelect" name="state">
+                                    <option value="" disabled selected>Estado</option>
+                                    <option value="SP">São Paulo</option>
+                                 </select>
+                              </div>
+                            </div>
+                            <div class="col-md-2">
+                              <div class="form-group">
+                                <select class="form-control" id="citySelect" name="city">
+                                    <option value="" disabled selected>Cidade</option>
+                                    <option value="SP">São Paulo</option>
+                                  </select>
+                              </div>
+                            </div>
+                            <div class="col-md-2">
+                              <div class="form-group">
+                                <select class="form-control" id="citySelect" name="city">
+                                    <option value="" disabled selected>Serviço</option>
+                                    <option value="SP">Floricultura</option>
+                                  </select>
+                              </div>
+                            </div>
+                            <div class="col-md-2">
+                              <div class="form-group">
+                                <a href="#" class="btn btn-primary">Pesquisar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        
+        <!-- search component-->
+
+
+        <hr class="custom-line">
+
+
+          <!-- Site Map -->
+
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-4">
+                <ul class="sitemap-item">
+                  <li><a href="#">Leiloeiros e avaliadores</a></li>
+                  <li><a href="#">Floricultura</a></li>
+                  <li><a href="#">Planos funerarios</a></li>
+                  <!-- Add more links as needed -->
+                </ul>
+              </div>
+          
+              <div class="col-md-4">
+                <ul class="sitemap-item">
+                  <li><a href="#">Cartorios</a></li>
+                  <li><a href="#">Repatriamento</a></li>
+                  <!-- Add more links as needed -->
+                </ul>
+              </div>
+          
+              <div class="col-md-4">
+                <ul class="sitemap-item">
+                  <li><a href="#">Cemiterios</a></li>
+                  <li><a href="#">Igrejas e templos religiosos</a></li>
+                  <!-- Add more links as needed -->
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        
+          <!-- Site Map -->
+          
+          <!-- Footer -->
+          <footer class="container-fluid text-center">
+            <p>&copy; 2023 Saudade.RIP </p>
+          </footer>
+        
+        <!-- Footer-->
+
+    </body>
+</html>
